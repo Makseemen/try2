@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    -wibkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* body */
+
+body{
+    position: relative;
+    background-color: rgb(147, 233, 255);
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+}
+body.switchMode{
+    background-color: #405766;
+}
+body.switchMode .head_inner nav ul li.switch a::after {
+    left: 20px;
+}
+
+/* head */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.header_head{
+    position: relative;
+    background-color: rgb(105, 161, 175);
+}
+.head_inner{
+    display: -wibkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.head_inner nav ul{
+    margin: 0;
+    padding: 0;
+    display: -wibkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.head_inner nav ul li{
+    list-style-type: none;
+}
+.head_inner nav ul li a{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left:100px;
+}
+.head_inner nav ul li.switch a{
+    position: relative;
+    width: 45px;
+    height: 24px;
+    border: 1px solid rgb(59, 55, 55);
+    border-radius: 10em;
+    padding: 0;
+    margin-top: 5px;
+    overflow: hidden;
+    
+}
+nav ul li.switch a:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10em;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+   
+    
+}
+.big{
+    justify-content: space-between;
+}
+.div_first {
+  margin-left: 850px   ;
+  margin-bottom: 800px;;
+  width: 1149.52px;
+  height: 39px;
+}
+h1{
+    
+    
+}
+.photo_one{
+    width: 500px;
+    height: 500px;
+    padding:10px;
+    margin-left: 250px;
+    margin-bottom: 260px;
+}
+.one {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
