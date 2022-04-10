@@ -10,11 +10,12 @@
 
 body{
     position: relative;
-    background-color: rgb(147, 233, 255);
+    background-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     -webkit-transition: all .7s ease;
     -o-transition: all .7s ease;
     transition: all .7s ease;
+   
 }
 body.switchMode{
     background-color: #405766;
@@ -78,7 +79,7 @@ header{
     position: relative;
     width: 45px;
     height: 24px;
-    border: 1px solid rgb(59, 55, 55);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 10em;
     padding: 0;
     margin-top: 5px;
@@ -101,27 +102,69 @@ nav ul li.switch a:after{
     
 }
 .big{
-    justify-content: space-between;
+    display: flex;
 }
+
 .div_first {
-  margin-left: 850px   ;
-  margin-bottom: 800px;;
-  width: 1149.52px;
-  height: 39px;
+ position: absolute;
+ padding: 150px;
+ font-size: 40px;
+ display: flex;
+ margin-left: 500px;
+ margin-top:70px;
+
+
 }
-h1{
-    
-    
+.div_second{
+    position: absolute;
+    padding: 150px;
+    font-size: 25px;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 170px;
+      
 }
 .photo_one{
     width: 500px;
     height: 500px;
-    padding:10px;
     margin-left: 250px;
-    margin-bottom: 260px;
+    margin-top:100px;
+   
 }
 .one {
     border-radius: 50%;
     width: 500px;
     height: 500px;
+    margin-top: 50px;
+}
+main {
+    
+    margin-bottom: 200px;
+    width: auto;
+    height: 200px;
+}
+.into {
+    margin-left: auto;
+    margin-right: auto;
+align-items: center;
+padding: 20px;
+border-radius: 20px;
+background: #9dc4df49;
+width: 1000px;
+height: 300px;
+font-size: 20px;
+}
+.h_one{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.pp1 {
+    padding: 10px;
+}
+.pp2 {
+    padding: 10px;
+}
+.pp3 {
+    padding: 10px;
 }
